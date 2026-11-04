@@ -15,7 +15,7 @@ The horizontal axis identifies the SC topology numbers, and the vertical axis gi
 
 Example:
 Probability of failure: 
-<img width="6736" height="4760" alt="Pf_SC_121_140_EC_225deg" src="https://github.com/user-attachments/assets/17bec80e-e9a9-44e3-83f5-53de1f81dd09" />
+<img width="6736" height="4760" src="example_images/Pf_SC_121_140_EC_225deg.png" />
 
 Expected costs of repair:
 <img width="6736" height="4760" alt="C_SC_121_140_EC_225deg" src="https://github.com/user-attachments/assets/6d7fe233-f6c5-42b1-b20b-bf49be1f705e" />
