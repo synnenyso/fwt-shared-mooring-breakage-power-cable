@@ -14,14 +14,22 @@ The files are named as following: type_SC_X1_X2_EC_Zdeg, where type = Pf, C, C_A
 The horizontal axis identifies the SC topology numbers, and the vertical axis gives the number of the FWT the EC is connected to (for the given cable orientation). The color scale in the images is used to easily identify the best (blue, or pink for zero values) and worst (red) performance. The probability of failure represents, as defined in [1], the probability of system failure considering a set of environmental load cases and all possible line break scenarios. The expected costs of repair and the expected loss in revenue are given relative to the highest and lowest values for all considered layout for the given mooring system. 
 
 Example:
-Probability of failure: 
-<img width="1000" src="/example_images/Pf_SC_121_140_EC_135deg.png" />
+Probability of failure:
+<p align="center">
+  <img width="500" src="/example_images/Pf_SC_121_140_EC_135deg.png" />
+</p>
 
 Expected costs of repair:
-<img width="1000" src="/example_images/C_SC_121_140_EC_135deg.png" />
+<p align="center">
+  <img width="500" src="/example_images/C_SC_121_140_EC_135deg.png" />
+</p>
 
 Expected loss in revenue:
-<img width="1000" src="/example_images/R_SC_121_140_EC_135deg.png" />
+Probability of failure:
+
+<p align="center">
+  <img width="500" src="/example_images/R_SC_121_140_EC_135deg.png" />
+</p>
 
 [1] : Nyboe, S., Mendoza, J., Bachynski-Polić, E., Sauder, T., 2026, *"Early-Stage Evaluation of the Consequences of Accidental Line Breakage in Shared Mooring Systems With Suspended Inter-Array Power Cables"*
 
