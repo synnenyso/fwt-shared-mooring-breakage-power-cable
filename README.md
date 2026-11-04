@@ -15,13 +15,13 @@ The horizontal axis identifies the SC topology numbers, and the vertical axis gi
 
 Example:
 Probability of failure: 
-<img width="3000" src="/example_images/Pf_SC_121_140_SCC_135deg.png" />
+<img width="3000" src="/example_images/Pf_SC_121_140_EC_135deg.png" />
 
 Expected costs of repair:
-<img width="3000" src="/example_images/C_SC_121_140_SCC_135deg.png" />
+<img width="3000" src="/example_images/C_SC_121_140_EC_135deg.png" />
 
 Expected loss in revenue:
-<img width="3000" src="/example_images/R_SC_121_140_SCC_135deg.png" />
+<img width="3000" src="/example_images/R_SC_121_140_EC_135deg.png" />
 
 [1] : Nyboe, S., Mendoza, J., Bachynski-Polić, E., Sauder, T., 2026, *"Early-Stage Evaluation of the Consequences of Accidental Line Breakage in Shared Mooring Systems With Suspended Inter-Array Power Cables"*
 
