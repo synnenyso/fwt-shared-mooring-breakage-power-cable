@@ -214,19 +214,19 @@ def plot_base_system(ax, system_type, plat, anch, buoy, line_names):
 # -----------------------------------------------------------------
 # Plot layout
 # -----------------------------------------------------------------
-def plot_sc_scc_layout(
+def plot_sc_ec_layout(
     plat,
     anch,
     buoy,
     layout,
     sc_topology,
-    scc_FWT,
-    scc_or,
+    ec_FWT,
+    ec_or,
     system_type,
     line_names,
 ):
     """
-    Plot one layout: SC topology and one SCC connection and orientation.
+    Plot one layout: SC topology and one EC connection and orientation.
     """
 
     fig, ax = plt.subplots(figsize=(10, 8))
@@ -247,12 +247,12 @@ def plot_sc_scc_layout(
             label="SC" if k == 0 else None,
         )
 
-    # SCC
+    # EC
     rad = 1440 / 2
 
-    e1 = plat[scc_FWT - 1, :2]
+    e1 = plat[ec_FWT - 1, :2]
 
-    direction = scc_or - 180
+    direction = ec_or - 180
 
     e2 = [
         e1[0] + rad * np.cos(np.deg2rad(direction)),
@@ -264,7 +264,7 @@ def plot_sc_scc_layout(
         [e1[1], e2[1]],
         "b-",
         lw=7,
-        label="SCC",
+        label="EC",
     )
 
     # FWT markers
@@ -275,7 +275,7 @@ def plot_sc_scc_layout(
         ms=12,
     )
 
-    ax.set_title(f"SC {sc_topology} | SCC {scc_FWT}")
+    ax.set_title(f"SC {sc_topology} | EC {ec_FWT}")
     ax.set_aspect("equal")
     ax.set_xticks([])
     ax.set_yticks([])
