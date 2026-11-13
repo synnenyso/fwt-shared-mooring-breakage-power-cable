@@ -31,7 +31,7 @@ Probability of failure:
   <img width="500" src="/example_images/R_SC_121_140_EC_135deg.png" />
 </p>
 
-[1] : Nyboe, S., Mendoza, J., Bachynski-Polić, E., Sauder, T., 2026, *"Early-Stage Evaluation of the Consequences of Accidental Line Breakage in Shared Mooring Systems With Suspended Inter-Array Power Cables"*
+[1] : Nyboe, S., Mendoza, J., Bachynski-Polić, E., Sauder, T., Submitted to Ocean Engineering 13th of November 2026, *"Early-Stage Evaluation of the Consequences of Accidental Line Breakage in Shared Mooring Systems With Suspended Inter-Array Power Cables"*
 
 
 
